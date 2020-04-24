@@ -16,16 +16,13 @@ Here is a rough release history:
 | Beta preV3| Jun- 2020 | [Manual Beta preV3 (Jun 2020) (50 MB)](https://docs.google.com/document/d/1HBj317OMeq26EmpwVWlAuzZsr2bfWh8Y58A8wAYWVoc/edit?usp=sharing "Manual Beta preV3") | [Release Beta preV3 (Jun 2020)](https://github.com/WGSExtract/WGSExtract-Dev/ "Release Beta preV3")
 
 **Release pre-v3**
-
-SHA256:
-MD5:
+* SHA256:
+* MD5:
 
 **Release v2b**
-
-SHA256: 4B2BB4CB42D90D20F528BD60C6A21A019C3672651716B6A8AE84C67E10481123
-MD5: 5979E0994C76347023EE622DF3E895CE
+* SHA256: 4B2BB4CB42D90D20F528BD60C6A21A019C3672651716B6A8AE84C67E10481123
+* MD5: 5979E0994C76347023EE622DF3E895CE
 
 **Release v1c**
-
-SHA256:
-MD5:
+* SHA256:
+* MD5:
