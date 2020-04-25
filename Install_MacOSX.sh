@@ -44,11 +44,11 @@ if [ ! -f $FILE ]; then
     curl -O https://distfiles.macports.org/MacPorts/$MACPORTS
     sudo -H installer -package $MACPORTS -target /
     rm -f $MACPORTS
+    sudo -H /opt/local/bin/port selfupdate
 fi
 echo
 
 echo "Macports will now try to install packages like samtools, etc if they are missing."
-sudo -H /opt/local/bin/port selfupdate
 sudo -H /opt/local/bin/port install samtools bcftools htslib gsed coreutils dos2unix zip unzip bash grep
 
 echo "Starting WGSExtract ... just to verify everything is OK.  Exit immediately if it starts OK"
