@@ -52,5 +52,6 @@ sudo -H /opt/local/bin/port selfupdate
 sudo -H /opt/local/bin/port install samtools bcftools htslib gsed coreutils dos2unix zip unzip bash grep
 
 echo "Starting WGSExtract ... just to verify everything is OK.  Exit immediately if it starts OK"
-WGSEDIR=`dirname $0`
-/usr/local/bin/python3 $WGSEDIR/programs/wgsextract/wgsextra
+WGSEDIR=`dirname "$0"`
+ABSWGSE=`cd "$WGSEDIR"; pwd`
+/usr/local/bin/python3 $ABSWGSE/programs/wgsextract/wgsextract.py
