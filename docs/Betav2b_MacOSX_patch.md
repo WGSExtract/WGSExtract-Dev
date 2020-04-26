@@ -1,4 +1,4 @@
-#Betav2b MacOSX Patch File Instructions
+# Betav2b MacOSX Patch File Instructions
 
 This is describing how to overlay the [MacOSX patch file](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/WGSExtract_MacOSX_Patch.zip) into your current [Betav2b release from 18 February 2020](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/docs/README.md). For MacOSX only installations. We rovide a new Install_MacOSX.sh script to do a proper environment install before you run the **WGS Exract** program. And a new, simple Start_MacOSX.sh command to start **WGS Extract** itself. Also include are two APPS that provide GUI window click startup of both these scripts.
 
