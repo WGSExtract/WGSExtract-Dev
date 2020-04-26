@@ -8,7 +8,7 @@ Your MacOSX will ask if it is OK to download from the github.com site.  Say OK.
 2. Drag those four items to your **WGSExtract** program top-level install directory.  
 There should already be 3 **xxx_Start.sh** files there.
 
-Simply double click on **Install_MacOSX.app** to run the installer (this was formerly the **MacOSX_Start.sh**)
+Simply double click on **Install_MacOSX.app** to run the installer (this was formerly the **MacOSX_START.sh**)
 
 Simply double click on **Start_MacOSX.app** to run the **WGS Extract** program itself.
 
