@@ -2,11 +2,9 @@
 
 This is describing how to overlay the [MacOSX patch file](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/WGSExtract_MacOSX_Patch.zip) into your current [Betav2b release from 18 February 2020](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/docs/README.md). For MacOSX only installations. We rovide a new Install_MacOSX.sh script to do a proper environment install before you run the **WGS Exract** program. And a new, simple Start_MacOSX.sh command to start **WGS Extract** itself. Also include are two APPS that provide GUI window click startup of both these scripts.
 
-1. Click [here to download the MacOSX patch file](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/WGSExtract_MacOSX_Patch.zip).
-Your MacOSX will ask if it is OK to download from the github.com site.  Say OK.
+1. Click [here to download the MacOSX patch file](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/WGSExtract_MacOSX_Patch.zip). Your MacOSX will ask if it is OK to download from the github.com site.  Say OK.
 1. Go to your Downloads directory and see the already unzipped archive folder there with 4 items inside.
-2. Drag those four items to your **WGSExtract** program top-level install directory.  
-There should already be 3 **xxx_Start.sh** files there.
+2. Drag those four items to your **WGSExtract** program top-level install directory.  There should already be 3 **xxx_Start.sh** files there.
 
 Simply double click on **Install_MacOSX.app** to run the installer (this was formerly the **MacOSX_START.sh**)
 
