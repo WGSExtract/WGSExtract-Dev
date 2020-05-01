@@ -13,6 +13,6 @@ folder there already. You may get a message about overwriting an existing progra
 
 When you start **WGS Extract**, you should now have a Française language option availale to select.
 
-[WGSE v3 Language Selection Popup](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/docs/img_support/WGSE%20Language%20Selection%20Popup.jpg "WGSE Language Selection Popup")
+![WGSE v3 Language Selection Popup](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/docs/img_support/WGSE%20Language%20Selection%20Popup.jpg "WGSE Language Selection Popup")
 
 Thanks to Françoise Boucher for the translation.
