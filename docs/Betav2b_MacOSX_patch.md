@@ -8,8 +8,7 @@ Your MacOSX will ask if it is OK to download from the github.com site.  Say OK.
 3. Drag those four items to your **WGSExtract** program top-level install directory.  There should be 3 **xxx_START.sh** files there already. For clarity, we assume below you have installed the **WGS Extract program** in your home directory of **~/WGSExtract**.
 4. Depending on the unzip program used and method of copy, the executable permission may have been stripped from the files.  If so, via a Terminal command line, execute the following commands:  
    **chmod ugo+x Install_MacOSX.app/Contents/MacOS/applet**  
-   **chmod ugo+x Start_MacOSX.app/Contents/MacOS/applet**  
-   **chmod ugo+x Install_MacOSX.sh Start_MacOSX.sh**
+   **chmod ugo+x Start_MacOSX.app/Contents/MacOS/applet**
 
 Double click on **Install_MacOSX.app** to run the installer (this was formerly the **MacOSX_START.sh**). If you prefer, you can run the Installer from the Terminal command line via the command: **cd ~/WGSExtract; /bin/sh Install_MacOSX.sh**
 
