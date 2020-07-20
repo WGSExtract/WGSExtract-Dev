@@ -1,6 +1,6 @@
 # WGS Extract Development
 
-This is the main **WGS Extract** Developers repository and support area for coders and others with a deeper understanding of the tool.  
+This is the main **WGS Extract** Developers repository and support area for coders and others with a deeper understanding of the tool.  Beside the actual code repository that can be git cloned to your development desktop, there are additional documentation and build areas.  See the **WGS Extract** [Developers' Wiki](https://github.com/WGSExtract/WGSExtract-Dev/wiki/) for more information.
 
 See [WGS Extract Users](https://wgsextract.github.io/) for the main entry point for users. That is where to download a release and find documentation related to using the tool. 
 
