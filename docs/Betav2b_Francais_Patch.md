@@ -2,7 +2,7 @@
 # WGS Extract Betav2b Français Language Patch File Instructions
 
 Overlay the [Français patch file](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/WGSExtractv2b_Francais_Patch.zip) onto your
-current [WGS Extract Betav2b release from 18 February 2020](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/docs/README.md). 
+current [WGS Extract Betav2b release from 18 February 2020](https://WGSExtract.github.io/). 
 For those desiring a Français language interface to the tool. This provides a new **wgsextract.py** file to replace your existing one to enable
 a Français language selection (along with the existing Deutsch and English).  And a new Français language strings file.
 
