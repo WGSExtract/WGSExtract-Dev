@@ -9,7 +9,7 @@ Your MacOSX will ask if it is OK to download from the github.com site.  Say OK.
 4. Depending on the unzip program used and method of copy, the executable permission may have been stripped from the files.  If so, via a Terminal command line, execute the following commands:  
    **chmod ugo+x Install_MacOSX.app/Contents/MacOS/applet**  
    **chmod ugo+x Start_MacOSX.app/Contents/MacOS/applet**
-5. A reminder (see User Manual) that the MacOSX installation cannot reside in the Documents or Downloads folder due to Gatekeeper.  Best to simply put in your home folder. Read this page completely for other helpful hints.
+5. A reminder (see [User Manual](http://bit.ly/36Jdpnq) installation section) that the MacOSX installation cannot reside in the Documents or Downloads folder due to Gatekeeper.  Best to simply put in your home folder. Read this page completely for other helpful hints.
 
 **`Note`**: as of MacOSX Catalina 15.0.7 update, they have tightened Gatekeeper restrictions to not allow pre-compiled Applescripts to be delivered in unsigned code releases. This functionality of the .app folders is no longer availabe there.
 
