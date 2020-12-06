@@ -99,16 +99,22 @@ wget https://github.com/broadinstitute/gatk/releases/download/4.1.9.0/gatk-4.1.9
 wget https://storage.googleapis.com/gatk-software/package-archive/gatk/GenomeAnalysisTK-3.8-1-0-gf15c1c3ef.tar.bz2
 wget https://github.com/broadinstitute/picard/releases/download/2.23.8/picard.jar
 wget https://data.broadinstitute.org/igv/projects/downloads/2.8/IGV_2.8.11.zip
+wget https://github.com/seppinho/haplogrep-cmd/releases/download/v2.2.9/haplogrep.zip
 
 # Note: GATK4 is more than just a jar file! Python scripts, etc now
 # Todo: process GATK4 for install
 # Todo: process IGV for install
+
+# Process GATK3
 tar xjf GenomeAnalysisTK-3.8-1-0-gf15c1c3ef.tar.bz2 
-mv GenomeAnalysisTK-3.8-1-0-gf15c1c3ef/GenomeAnalysisTK.jar .
+mv GenomeAnalysisTK-3.8-1-0-gf15c1c3ef/GenomeAnalysisTK.jar jartools
 rm -f GenomeAnalysisTK-3.8-1-0-gf15c1c3ef GenomeAnalysisTK-3.8-1-0-gf15c1c3ef.tar.bz2
 
+# Process Haplogrep
+tar xf haplogrep.zip ; rm haplogrep.zip haplogrep ; mv haplogrep.har jartools
+
 # Make the package to download (version label it first?)
-gzip jartools ; rm -rf jartools
+gzip jartools ; rm -rf jartools; 
 
 
 #############################################################################################################
