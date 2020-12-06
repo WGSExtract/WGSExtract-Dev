@@ -1,0 +1,14 @@
+bwa-mem2.exe
+htsfile.exe
+md5fa.exe
+wgsim.exe
+bwa.exe
+md5sum-lite.exe
+sort.exe
+zip.exe
+bcftools.exe
+minimap2.exe
+tabix.exe
+bgzip.exe
+samtools.exe
+unzip.exe
