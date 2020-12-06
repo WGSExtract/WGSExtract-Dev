@@ -3,7 +3,7 @@
 Historically, this was a collection of a number of directories.  Not just the **WGS Extract** code in a subdirectory here. But we are slowly removing the other directories as needs dictate.
 
 ## Directories that are still here (or newly added):
-1. **yleaf/** -- the modified copies of the yleaf Python code and its needed template files.
+1. **yleaf/** -- the modified copies of the yleaf Python code and its needed template files. Should be changed to a sub-module with fork of the yleaf release elsewhere on github here.
 1. **wgsextract/** -- the main python code based and related files unique to this program
 1. **jartools/** -- Created by all platform installers; a new entry for the expanded JAR file programs (installed and maintained by the installers; not the code base here).
 1. **python/** -- Created by the Win10 installer only for a stand-alone Python3 installation (see Win10 Subsystem)
