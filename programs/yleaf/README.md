@@ -1,3 +1,5 @@
+# A static, unofficial fork of the code from 1.5 yeas ago.  Work is progressing to turn into a branched sub-module here.
+#
 # Yleaf: software for human Y-chromosomal haplogroup inference from next generation sequencing data
 #
 #### Arwin Ralf, Diego Montiel Gonzalez, Kaiyin Zhong and Manfred Kayser
