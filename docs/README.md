@@ -9,9 +9,9 @@ Here is a rough release history:
 |:--- | :---:| --- | ---| ---|
 | Beta v2b Patch (MacOSX Only)| 25 Apr 2020| [v2b MacOSX Doc](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/docs/Betav2b_MacOSX_patch.md) |[v2B MacOSX Patch](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/WGSExtract_MacOSX_Patch.zip) | Overlay patch for MacOSX Start / Install Scripts
 | Beta v2b Patch (Français) | 1 May 2020| [v2b Français Doc](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/docs/Betav2b_Francais_Patch.md) |[v2b Français Patch](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/WGSExtractv2b_Francais_Patch.zip) |Overlay patch for Français language support
-| Beta preV3| Jun- 2020 | [Manual Beta preV3 (Jun 2020) (50 MB)](https://docs.google.com/document/d/1HBj317OMeq26EmpwVWlAuzZsr2bfWh8Y58A8wAYWVoc/edit?usp=sharing "Manual Beta preV3") | [Release Beta preV3 (Jun 2020)](https://github.com/WGSExtract/WGSExtract-Dev/ "Release Beta preV3")
+| pre-AlphaV3| Jun- 2020 | [Manual pre-Alpha V3 (Jun 2020) (50 MB)](https://docs.google.com/document/d/1HBj317OMeq26EmpwVWlAuzZsr2bfWh8Y58A8wAYWVoc/edit?usp=sharing "Manual pre-Alpha V3") | [Release pre-Alpha V3 (Jun 2020)](https://github.com/WGSExtract/WGSExtract-Dev/ "Release pre-Alpha V3")
 
-**Release pre-v3**
+**Release preAlpha-v3**
 * SHA256:
 * MD5:
 
