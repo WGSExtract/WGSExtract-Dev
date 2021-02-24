@@ -1,4 +1,7 @@
 # WGS Extract Betav2b MacOSX Patch File Instructions
+**`Note`**: We have put out a release with the Patch already installed.  See the [main page](https://wgsextract.github.io) at the very bottom.
+**`Note`**: It has been reported that MacPorts (which we rely on during install to install the needed Bioinformatics tools) is broken on the M1 architecture.  We are still looking at a work-around there.
+**`Note`**: It has been reported that since moving the repository to Google Drive serviecs, that only Safari (not Chrome nor Firefox) work to download large blobs like this from Google Drive.
 
 Overlay the [MacOSX patch file](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/WGSExtract_MacOSX_Patch.zip) onto your current [WGS Extract Betav2b release from 18 February 2020](https://github.com/WGSExtract/WGSExtract-Dev/blob/master/Docs/README.md). For MacOSX only installations. This is a new **Install_MacOSX** app for MacOSX to do a proper environment install before you run the **WGS Exract** program. And a new, simple **Start_MacOSX** command to start **WGS Extract** more reliably. These are APPS that provide a GUI window click startup in the MacOS environment.
 
@@ -11,7 +14,7 @@ Your MacOSX will ask if it is OK to download from the github.com site.  Say OK.
    **chmod ugo+x Start_MacOSX.app/Contents/MacOS/applet**
 5. A reminder (see [User Manual](http://bit.ly/36Jdpnq) installation section) that the MacOSX installation cannot reside in the Documents or Downloads folder due to Gatekeeper.  Best to simply put in your home folder. Read this page completely for other helpful hints.
 
-**`Note`**: as of MacOSX Catalina 15.0.7 update, they have tightened Gatekeeper restrictions to not allow pre-compiled Applescripts to be delivered in unsigned code releases outside the App store. This functionality of the **.app** folders is no longer availabe in these later releases unless you compile the Applescript file locally to create the **.app** folder. We are still exploring a work-around. 
+**`Note`**: as of MacOSX Catalina 15.0.7 update, they have tightened Gatekeeper restrictions to not allow pre-compiled Applescripts to be delivered in unsigned code releases outside the App store. This functionality of the **.app** folders is no longer availabe in these later releases unless you compile the Applescript file locally to create the **.app** folder. You can click on the applet your are changing permissions on above and it executes directly; just not the top level App.  The source scripts are in a similar directory (Contents/Resources/Scripts/main.scpt).  Copy each to the top level, rename to the name of the Applet, and compile using the Applescript compiler.  More in the manual on this. Or simply use the Terminal interface as shown below.
 
 Double click on **Install_MacOSX.app** to run the installer (formerly you used the **MacOSX_START.sh** shell script). If you prefer, you can run the Installer from the Terminal command line via the command: **cd ~/WGSExtract; /bin/sh Install_MacOSX.sh** (you must use this Terminal method for Cataline 15.0.7 and later)
 
