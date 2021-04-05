@@ -1,7 +1,7 @@
 # WGS Extract Betav2b MacOSX Patch File Instructions
 **`Note`**: We have put out a release with the Patch already installed.  See the [main page](https://wgsextract.github.io) at the very bottom.
 
-**`Note`**: It has been reported that MacPorts (which we rely on during install to install the needed Bioinformatics tools) is broken on the M1 architecture.  We are still looking at a work-around there.
+**`Note`**: It has been reported that [MacPorts on BigSur / M1 architecture is broken](https://trac.macports.org/wiki/BigSurProblems).  We rely on MacPorts to install the needed Bioinformatics tools.  We are still looking at a work-around there.
 
 **`Note`**: It has been reported that since moving the repository to Google Drive serviecs, that only Safari (not Chrome nor Firefox) work to download large blobs like this from Google Drive.
 
