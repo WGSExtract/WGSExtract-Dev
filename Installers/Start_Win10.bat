@@ -1,3 +1,3 @@
-@echo Awaiting language selection / Warte auf Auswahl der Sprache
-@cd .\programs\wgsextract\
-@..\python\python -m pdb wgsextract.py
+echo Starting WGS Extract
+@python\python program\wgsextract.py
+REM @python\python -m pdb program\wgsextract.py
