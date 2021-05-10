@@ -59,13 +59,14 @@ fi
 echo
 
 
-echo "Removing Xcode CLI ..."
-if [ -d /Library/Developer/CommandLineTools ]; then
-    read -p "Do you want to remove Xcode CLI [Y/n]? " -n 1 -r ; echo
-    if [[ $REPLY =~ ^[Yy]$ ]]; then
-	sudo -H rm -rf  /Library/Developer/CommandLineTools
-    fi
-fi
+# if we wipe out the folder; as instructed by Apple to do, then install script errors on trying to reinstall
+#echo "Removing Xcode CLI ..."
+#if [ -d /Library/Developer/CommandLineTools ]; then
+#    read -p "Do you want to remove Xcode CLI [Y/n]? " -n 1 -r ; echo
+#    if [[ $REPLY =~ ^[Yy]$ ]]; then
+#	sudo -H rm -rf  /Library/Developer/CommandLineTools
+#    fi
+#fi
 
 
 echo "Removing Java ... "
@@ -78,7 +79,6 @@ fi
 
 
 echo "Finished uninstalling programs needed by WGSExtract. "
-echo "*** Please drag the WGSExtract program folder to the trash yourself. "
-echo "If you specified a Reference_Genome and/or Temp directory outside the"
-echo "program folder, you will need to remove that folder to the trash as well."
-# Already have path in applescript so leave the command for there
+echo "*** Please drag the WGS Extract install folder to the trash yourself. "
+echo "If you specified a Reference_Genome and/or Temp directory outside the WGS Extract"
+echo "install folder, you will need to move those folders to the trash as well."
