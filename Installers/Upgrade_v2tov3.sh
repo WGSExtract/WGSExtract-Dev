@@ -130,7 +130,7 @@ case "$OSTYPE" in
       echo Installing Bioinformatics tools -- cygwin64 port for Win10
       # Actual file name is win10tools-bioinfo1.12.zip with encrypted files
       # get_googledrive_large_file "1qlBWByCnTKTyeJa3xzeI2qgnyAEDK5BR" "win10tools.zip"
-      curl -L -o win10tools.zip 'https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjcfRcHuX-WZ3CrGE/root/content'
+      curl -L -o win10tools.zip 'https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjdiI35GxxlmrBLU8/root/content'
       # Google decided this zip file, of the many we have, was worthy of 4 level "are your sure" check. So we
       #  encrypted it to bypass their virus check.  Need 7z to unencrypt via command line; no others allow password
       7z x -tzip -y -pWGSEv3 win10tools.zip > /dev/null
