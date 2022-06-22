@@ -1,0 +1,12 @@
+# Living DNA customer genotype data download file version: 1.0.2			
+# File creation date: 4-1-2019			
+# Genotype chip: Sirius			
+# The content of this file is subject to updates and changes depending on the time of download.			
+# This genotype data should be treated as personal information.			
+# This genotype data is not suitable for clinical/medical research or diagnosis.			
+# The user assumes all responsibility for the security of this file.			
+# Please refer to the Living DNA Terms and Conditions on our website (www.livingdna.com) for more information.			
+# Human Genome Reference Build 37 (GRCh37.p13).			
+# Genotypes are presented on the forward strand.			
+#			
+# rsid	chromosome	position	genotype
