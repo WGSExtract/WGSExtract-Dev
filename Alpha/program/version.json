@@ -1,7 +1,5 @@
 {
-  "wgse.type": "Alpha",
   "wgse.version": "33", 
   "wgse.date": "Tue 05 Jul 2022", 
-  "wgse.URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTtBtwtIm2GwIeyw/root/content", 
-  "wgse.installURL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTrta_ifqiAwBVJu/root/content"
+  "wgse.URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTtBtwtIm2GwIeyw/root/content"
 }
