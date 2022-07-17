@@ -1,6 +1,6 @@
 {
-  "program.version": "33", 
-  "program.date": "Tue 05 Jul 2022", 
-  "program.URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTtBtwtIm2GwIeyw/root/content",
-  "program.manual": "https://bit.ly/3JCyZNa"
+  "wgse.version": "33", 
+  "wgse.date": "Tue 05 Jul 2022", 
+  "wgse.URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTtBtwtIm2GwIeyw/root/content",
+  "wgse.manual": "https://bit.ly/3JCyZNa"
 }
