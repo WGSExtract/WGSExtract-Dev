@@ -1,7 +1,7 @@
 {
   "wgse.version": "34", 
   "wgse.date": "25Jul2022", 
-  "_comment1": "Link below is to v34 Alpha installer. Old WGSE package had installer and program.",
-  "wgse.URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgUoSW7kDQj-kwzK2/root/content",
+  "_comment1": "Link below is to v34 Alpha installer & program combined. Old WGSE package style.",
+  "wgse.URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgWDXhZfOvMxETiUs/root/content",
   "wgse.manual": "https://bit.ly/3JCyZNa"
 }
