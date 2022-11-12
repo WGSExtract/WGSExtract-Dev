@@ -1,24 +1,24 @@
 {
   "installer": {
-    "version": 37,
-    "date": "23Aug2022",
-    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgXP6_gkUUaxAcRx_/root/content"
+    "version": 40,
+    "date": "06Nov2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgiSPTnhCx5PCbWTP/root/content"
   },
   "program": {
-    "version": 38,
-    "date": "23Aug2022",
-    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgXSCN5-iS_oVO4rc/root/content",
+    "version": 41,
+    "date": "06Nov2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgiI0dumGRnTSBR1x/root/content",
     "manual": "https://bit.ly/3JCyZNa"
   },
   "reflib": {
-    "version": 5,
-    "date": "10Apr2022",
-    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgWME4DUJ1yvQBj-C/root/content"
+    "version": 7,
+    "date": "06Nov2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgiODGs4AkeqfHSPc/root/content"
   },
   "tools": {
-    "version": 4,
-    "date": "03Mar2022",
-    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgUkYb4b_OxpIhTFX/root/content"
+    "version": 5,
+    "date": "11Oct2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgXpZSU5muDFqI_1o/root/content"
   },
   "cygwin64": {
     "version": 3,
