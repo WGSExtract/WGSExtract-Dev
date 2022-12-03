@@ -1,13 +1,13 @@
 {
   "installer": {
-    "version": 40,
-    "date": "06Nov2022",
-    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgiSPTnhCx5PCbWTP/root/content"
+    "version": 41,
+    "date": "03Dec2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgV3LAoROT5vUw5tR/root/content"
   },
   "program": {
-    "version": 42,
-    "date": "29Nov2022",
-    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgih0O-75ww7o9P4w/root/content",
+    "version": 43,
+    "date": "03Dec2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgitT39jU7xHgWDe1/root/content",
     "manual": "https://bit.ly/3JCyZNa"
   },
   "reflib": {
@@ -27,8 +27,8 @@
     "buildURL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTf-nT_CML2kw9om/root/content"
   },
   "bioinfo": {
-    "version": 3,
-    "date": "29Jun2022",
-    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTWdoB7VDLEtj_Od/root/content"
+    "version": 4,
+    "date": "02Dec2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgikqFUiSdaNWSD5p/root/content"
   }
 }
