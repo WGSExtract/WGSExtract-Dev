@@ -1,19 +1,19 @@
 {
   "installer": {
     "version": 42,
-    "date": "07Dec2022",
-    "URL": "https://get.wgse.io/WGSExtract-Alphav42_07Dec2022_installer.zip"
+    "date": "30Jan2023",
+    "URL": "https://get.wgse.io/WGSExtract-Alpha42_30Jan2023_installer_p1.zip"
   },
   "program": {
     "version": 44,
-    "date": "07Dec2022",
-    "URL": "https://get.wgse.io/WGSExtract-v44_07Dec2022_program.zip",
+    "date": "30Jan2023",
+    "URL": "https://get.wgse.io/WGSExtract-v44p1_30Jan2023_program.zip",
     "manual": "https://get.wgse.io/WGSExtract_v4_User_Manual"
   },
   "reflib": {
-    "version": 7,
-    "date": "06Nov2022",
-    "URL": "https://get.wgse.io/WGSExtract-v7_06Nov2022_reflib.zip"
+    "version": 8,
+    "date": "30Jan2023",
+    "URL": "https://get.wgse.io//WGSExtract-v8_30Jan2023_reflib.zip"
   },
   "tools": {
     "version": 5,
