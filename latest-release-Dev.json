@@ -1,8 +1,8 @@
 {
   "installer": {
-    "version": 42,
+    "version": 43,
     "date": "30Jan2023",
-    "URL": "https://get.wgse.io/WGSExtract-Dev42_30Jan2023_installer_p1.zip"
+    "URL": "https://get.wgse.io/WGSExtract-Dev43_30Jan2023_installer.zip"
   },
   "program": {
     "version": 44,
