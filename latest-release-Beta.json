@@ -1,34 +1,34 @@
 {
   "installer": {
-    "version": 43,
-    "date": "30Jan2023",
-    "URL": "https://get.wgse.io/WGSExtract-Betav42_30Jan2023_installer.zip"
+    "version": 40,
+    "date": "06Nov2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgidZZ3Ghxo1P-FO7/root/content"
   },
   "program": {
-    "version": 44,
-    "date": "30Jan2023",
-    "URL": "https://get.wgse.io/WGSExtract-v44p1_30Jan2023_program.zip",
-    "manual": "https://get.wgse.io/WGSExtract_v4_User_Manual"
+    "version": 41,
+    "date": "06Nov2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgiI0dumGRnTSBR1x/root/content",
+    "manual": "https://bit.ly/3JCyZNa"
   },
   "reflib": {
-    "version": 8,
-    "date": "30Jan2023",
-    "URL": "https://get.wgse.io//WGSExtract-v8_30Jan2023_reflib.zip"
+    "version": 7,
+    "date": "06Nov2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgiODGs4AkeqfHSPc/root/content"
   },
   "tools": {
     "version": 5,
     "date": "11Oct2022",
-    "URL": "https://get.wgse.io/WGSExtract-v5_11Oct2022_tools.zip"
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgXpZSU5muDFqI_1o/root/content"
   },
   "cygwin64": {
     "version": 3,
     "date": "29June2022",
-    "URL": "https://get.wgse.io/cygwin64_v3_29Jun2022_installer.zip",
-    "buildURL": "https://get.wgse.io/cygwin64_v3_29Jun2022_builder.zip"
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTZ150Kf_OaIYrPT/root/content",
+    "buildURL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTf-nT_CML2kw9om/root/content"
   },
   "bioinfo": {
-    "version": 4,
-    "date": "02Dec2022",
-    "URL": "https://get.wgse.io/cygwin64_v4_02Dec2022_bioinfo.zip"
+    "version": 3,
+    "date": "29Jun2022",
+    "URL": "https://api.onedrive.com/v1.0/shares/s!AgorjTSMFYpjgTWdoB7VDLEtj_Od/root/content"
   }
 }
