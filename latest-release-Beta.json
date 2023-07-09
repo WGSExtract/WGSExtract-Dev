@@ -1,12 +1,12 @@
 {
   "installer": {
-    "version": 42,
-    "date": "07Dec2022",
-    "URL": "https://get.wgse.io/WGSExtract-Betav42_07Dec2022_installer.zip"
+    "version": 43,
+    "date": "30Jan2023",
+    "URL": "https://get.wgse.io/WGSExtract-Betav43_07Dec2022_installer.zip"
   },
   "program": {
-    "version": 44,
-    "date": "07Dec2022",
+    "version": 42,
+    "date": "29Nov2022",
     "URL": "https://get.wgse.io/WGSExtract-v42_29Nov2022_program.zip",
     "manual": "https://get.wgse.io/WGSExtract_v4_User_Manual"
   },
