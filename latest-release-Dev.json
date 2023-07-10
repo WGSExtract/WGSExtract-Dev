@@ -5,9 +5,9 @@
     "URL": "https://get.wgse.io/WGSExtract-Dev43_30Jan2023_installer.zip"
   },
   "program": {
-    "version": 42,
-    "date": "30Nov2022",
-    "URL": "https://get.wgse.io/WGSExtract-v42_29Nov2022_program.zip",
+    "version": 44.2,
+    "date": "28Feb2023",
+    "URL": "https://get.wgse.io/WGSExtract-v44.2_28Feb2023_program.zip",
     "manual": "https://get.wgse.io/WGSExtract_v4_User_Manual"
   },
   "reflib": {
