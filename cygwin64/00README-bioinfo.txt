@@ -16,17 +16,7 @@ Open Source Licenses for the various tools included here are in the
 Should be overlayed in a matched cygwin64 base environment with needed libraries.
 Should be extracted within a shell in the target cygwin64 environment using the
  BASH command:
-  7z x -tzip -o/usr cygwin64-bioinfo1.15.zip
+  7z x -tzip -o/usr cygwin64-bioinfo_vN.zip
 
-The Cygwin64 base environment can be (re)created with the following (cmd.exe) commands:
-  \Windows\SysWOW64\curl.exe -kL -o setup-x86_64.exe "https://www.cygwin.com/setup-x86_64.exe"
-  setup-x86_64.exe --root . --site https://cygwin.mirror.constant.com --only-site --quiet-mode --no-shortcuts ^
-    --no-admin ---categories base --packages p7zip,unzip,zip
-  setup-x86_64.exe --root . --site https://cygwin.mirror.constant.com --only-site --quiet-mode --no-shortcuts ^
-    --no-admin --packages libbz2-devel,libzip-devel,liblzma-devel,libdeflate-devel,zlib-devel,libncurses-devel
-  rd https%3a%2f%2fcygwin.mirror.constant.com%2f /s/q
-Note that the versions of libraries in /bin and with the base release need to match those used to 
-  create the bioinformatic tools in /usr/local. Additional libraries are required to compile the
-  bioinformatic tools.
 
 
