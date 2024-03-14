@@ -73,7 +73,6 @@ def wgse_main(module):
 if __name__ == '__main__':
 
     args = get_arguments()      # Place holder; not implemented yet. Intent is to allow BAM file in command line.
-
     wgse_main(__name__)
 
 
