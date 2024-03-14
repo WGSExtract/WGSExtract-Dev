@@ -62,9 +62,9 @@ get_all_refgenomes() {
       [ ! -f hs38.fa.gz ] && echo Grabbing hs38 NIH && \
         ${curlx} -o hs38.fa.gz ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old_genbank/Eukaryotes/vertebrates_mammals/Homo_sapiens/GRCh38/seqs_for_alignment_pipelines/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz
       [ ! -f hs37d5.fa.gz ] && echo Grabbing hs37d5 NIH && \
-        ${curlx} -o hs37d5.fa.gz ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
+        ${curlx} -o hs37d5.fa.gz ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
       [[ ! -f hs38DH.fa.gz && ! -f hs38DH.fa ]] && echo Grabbing hs38DH NIH && \
-        ${curlx} -o hs38DH.fa ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa
+        ${curlx} -o hs38DH.fa ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa
       ;;
     "EBI")    # Actually hs38 is not available on the EBI server so we supply a WGSE Google Drive version
       [ ! -f hs38.fa.gz ] && echo Grabbing hs38 EBI && \
@@ -137,7 +137,7 @@ select rg in "${option[@]}"; do
       echo "You can start the WGS Extract program while the Reference Library is downloading."
       echo "When selecting Recommended, we always download and replace any existing files."
       [ ! -f hs37d5.fa.gz ] && echo "Downloading hs37d5 (default NIH server)" && \
-        ${curlx} -o hs37d5.fa.gz ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
+        ${curlx} -o hs37d5.fa.gz ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
       [ ! -f hs38.fa.gz ] && echo "Downloading hs38 (default NIH server)" && \
         ${curlx} -o hs38.fa.gz ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old_genbank/Eukaryotes/vertebrates_mammals/Homo_sapiens/GRCh38/seqs_for_alignment_pipelines/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz
       [ ! -f chm13v2.0.fa.gz ] && echo "Downloading T2T v2.0: chm13 v1.1 with HG002 Y v2.7 (T2T AWS)" && \
@@ -190,7 +190,7 @@ select rg in "${option[@]}"; do
     "hs37d5 (Dante) (R)")
       echo "Downloading and Processing hs37d5 (default NIH server)"
       [ -f hs37d5.fa.gz ] && rm -f hs37d5.fa.gz
-      ${curlx} -o hs37d5.fa.gz ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
+      ${curlx} -o hs37d5.fa.gz ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
       [ -f hs37d5.fa.gz ] && ${bashx} process_reference_genomes.sh hs37d5.fa.gz
       ;;
     "T2T_v2 (PGP/HPP chrN) (R)")
@@ -203,7 +203,7 @@ select rg in "${option[@]}"; do
     "hs38DH (aDNA)")
       echo "Downloading and Processing hs38DH (default NIH serverl uncompressed original so 3x the size)"
       [ -f hs38DH.fa.gz ] && rm -f hs38DH.fa.gz
-      ${curlx} -o hs38DH.fa ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa
+      ${curlx} -o hs38DH.fa ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa
       [ -f hs38DH.fa ] && ${bashx} process_reference_genomes.sh hs38DH.fa
       ;;
     "hg38 (yseq)")
@@ -295,7 +295,7 @@ select rg in "${option[@]}"; do
     "human_g1k_v37 (@US NIH)")
       echo "Downloading and Processing human_g1k_v37"
       [ -f human_g1k_v37.fasta.gz ] && rm -f human_g1k_v37.fasta.gz
-      ${curlx} -o human_g1k_v37.fasta.gz ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.gz
+      ${curlx} -o human_g1k_v37.fasta.gz ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.gz
       [ -f human_g1k_v37.fasta.gz ] && ${bashx} process_reference_genomes.sh human_g1k_v37.fasta.gz
       ;;
     "human_g1k_v37 (@EU EBI)")
