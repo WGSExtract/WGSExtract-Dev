@@ -1,4 +1,5 @@
 # WGS Extract Development
+>Note: This repository is woefully out of date.  Use the release packages as they contain a complete copy of all build and release files needed to create a new release. See the latest-release JSON file for the URLs to the 6 packages.
 
 This is the main **WGS Extract** Developers repository and support area for coders and others with a deeper understanding of the tool.  Beside the actual code repository that can be git cloned to your development desktop, there are additional documentation and build areas.  See the **WGS Extract** [Developers' Wiki](https://github.com/WGSExtract/WGSExtract-Dev/wiki/) for more information.
 
