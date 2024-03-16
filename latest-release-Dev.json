@@ -1,13 +1,13 @@
 {
   "installer": {
-    "version": 43,
-    "date": "30Jan2023",
-    "URL": "https://get.wgse.io/WGSExtract-Dev43_30Jan2023_installer.zip"
+    "version": 44,
+    "date": "30Oct2023",
+    "URL": "https://get.wgse.io/WGSExtract-Dev44_30Oct2023_installer.zip"
   },
   "program": {
-    "version": 44.2,
-    "date": "28Feb2023",
-    "URL": "https://get.wgse.io/WGSExtract-v44.2_28Feb2023_program.zip",
+    "version": 44.3,
+    "date": "30Oct2023",
+    "URL": "https://get.wgse.io/WGSExtract-v44.3_30Oct2023_program.zip",
     "manual": "https://get.wgse.io/WGSExtract_v4_User_Manual"
   },
   "reflib": {
