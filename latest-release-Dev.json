@@ -1,19 +1,19 @@
 {
   "installer": {
-    "version": 44,
-    "date": "30Oct2023",
-    "URL": "https://get.wgse.io/WGSExtract-Dev44_30Oct2023_installer.zip"
+    "version": 45,
+    "date": "30Mar2024",
+    "URL": "https://get.wgse.io/WGSExtract-Dev45_30Mar2024_installer.zip"
   },
   "program": {
-    "version": 44.3,
-    "date": "30Oct2023",
-    "URL": "https://get.wgse.io/WGSExtract-v44.3_30Oct2023_program.zip",
-    "manual": "https://get.wgse.io/WGSExtract_v4_User_Manual"
+    "version": 44.4,
+    "date": "30Mar2024",
+    "URL": "https://get.wgse.io/WGSExtract-v44.4_30Mar2024_program.zip",
+    "manual": "https://bit.ly/3JCyZNa"
   },
   "reflib": {
     "version": 8,
     "date": "30Jan2023",
-    "URL": "https://get.wgse.io//WGSExtract-v8_30Jan2023_reflib.zip"
+    "URL": "https://get.wgse.io/WGSExtract-v8_30Jan2023_reflib.zip"
   },
   "tools": {
     "version": 5,
@@ -30,5 +30,16 @@
     "version": 4,
     "date": "02Dec2022",
     "URL": "https://get.wgse.io/cygwin64_v4_02Dec2022_bioinfo.zip"
+  },
+  "msys2": {
+    "version": 1,
+    "date": "30 Mar2024",
+    "URL": "https://get.wgse.io/msys2_v1_30Mar2024_installer.zip",
+    "buildURL": "https://get.wgse.io/msys2_v1_30Mar2024_build.zip"
+  },
+  "bioinfo-msys2": {
+    "version": 1,
+    "date": "30 Mar2024",
+    "URL": "https://get.wgse.io/msys2_v1_30Mar2024_bioinfo.zip"
   }
 }
