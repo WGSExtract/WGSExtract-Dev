@@ -12,4 +12,5 @@ Within this area are the source code, build scripts and developer documentation 
 # See Also:
 * Teemu's AI tool refactoring and porting to pyQT: [WGSExtractv6](https://github.com/teepean/WGSExtractv6)  (stub code in most places; a forked and restart project; not extension of effort here)
 * Mac's restructure to allow a true development and relesae out of the GITHub source base: [WGSExtractRepo](https://github.com/theontho/WGSExtractRepo?tab=readme-ov-file) (likely to replace this repository soon)
-  * Includes work on AI rewrites into Pyhton of the installer and support shell code (potentially getting to a Python Package release tool)
+  * Includes work on AI rewrites into Python of the installer and support shell code (potentially getting to a Python Package release tool)
+* Mac's restructure into a CLI first using Microsoft AI tools: [WGSExtract-CLI](https://github.com/theontho/wgsextract-cli)
