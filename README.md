@@ -10,8 +10,12 @@ See also [WGS Extract Historical](https://github.com/WGSExtract/WGSExtract-Histo
 Within this area are the source code, build scripts and developer documentation for the tool. Including historical release notes.
 
 # See Also:
-* Teemu's AI tool refactoring and porting to pyQT: [WGSExtractv6](https://github.com/teepean/WGSExtractv6)  (stub code in most places; a forked and restart project; not extension of effort here)
-* Mac's restructure to allow a true development and relesae out of the GITHub source base: [WGSExtractRepo](https://github.com/theontho/WGSExtractRepo?tab=readme-ov-file) (likely to replace this repository soon)
-  * Includes work on AI rewrites into Python of the installer and support shell code (potentially getting to a Python Package release tool)
-* Mac's restructure into a CLI first form using AI tools: [WGSExtract-CLI](https://github.com/theontho/wgsextract-cli)
-  * Simplifying cross-platform support; adding development out of GIT and GIT support for regression testing
+* Mac's refactor into a CLI-first form using AI tools: [WGSExtract-CLI](https://github.com/theontho/wgsextract-cli)
+  * Simplifying cross-platform support using Pixi; adding development out of GIT and GIT support for regression testing
+* Mac's minor restructure: [WGSExtractRepo](https://github.com/theontho/WGSExtractRepo?tab=readme-ov-file)
+  * to allow a true development and relesae out of the GITHub source base
+  * Includes work on AI rewrites into Python of the installer and support shell code (potentially getting to a Python Package only release tool)
+* Teemu's AI tool refactoring and porting to pyQT: [WGSExtractv6](https://github.com/teepean/WGSExtractv6)  (stub code in many places; a forked and restart project; not extension of effort here)
+* Marco's original refactoring (called [WGSE-NG](https://github.com/WGSE-NG/)) but now a rewrite ([double-helix](https://doublehelix.app)). 
+  * Lots of work for 6 months but never completed. 
+  * See [WGSE-NG/External](https://github.com/wgse-ng/External/) for original work to move msys2 windows binaries creation into GIT YAML script and [attempt to get htslib folks to adopt](https://github.com/samtools/samtools/issues/2064).
