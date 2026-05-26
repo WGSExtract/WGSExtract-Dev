@@ -10,6 +10,7 @@ See also [WGS Extract Historical](https://github.com/WGSExtract/WGSExtract-Histo
 Within this area are the source code, build scripts and developer documentation for the tool. Including historical release notes.
 
 # See Also:
+* Mac's new GUI generator to put the GUI front-end onto the new CLI back-end. Also formal, signed installers. [WGSExtract-GUI](https://theontho.github.io/gui-for-cli/)
 * Mac's refactor into a CLI-first form using AI tools: [WGSExtract-CLI](https://github.com/theontho/wgsextract-cli)
   * Simplifying cross-platform support using Pixi; adding development out of GIT and GIT support for regression testing
 * Mac's minor restructure: [WGSExtractRepo](https://github.com/theontho/WGSExtractRepo?tab=readme-ov-file)
