@@ -9,13 +9,14 @@ See also [WGS Extract Historical](https://github.com/WGSExtract/WGSExtract-Histo
 
 Within this area are the source code, build scripts and developer documentation for the tool. Including historical release notes.
 
-# See Also:
+# See Also (later developments; mostly with heavy AI assist):
 * Mac's new GUI generator to put the GUI front-end onto the new CLI back-end. Also formal, signed installers. [WGSExtract-GUI](https://theontho.github.io/gui-for-cli/)
+* James Kane's rebirth of dna-warehouse with a self-contained, RUST-based, single executable, desktop [Navigator tool](https://jameskane.blog/genomics/2026/07/11/navigator-alpha-run-your-own-genomics-lab.html).
 * Mac's refactor into a CLI-first form using AI tools: [WGSExtract-CLI](https://github.com/theontho/wgsextract-cli)
   * Simplifying cross-platform support using Pixi; adding development out of GIT and GIT support for regression testing
 * Mac's minor restructure: [WGSExtractRepo](https://github.com/theontho/WGSExtractRepo?tab=readme-ov-file)
   * to allow a true development and relesae out of the GITHub source base
-  * Includes work on AI rewrites into Python of the installer and support shell code (potentially getting to a Python Package only release tool)
+  * Includes work on AI rewrites of the installer and support shell code into Python (potentially getting to a Python Package only release tool)
 * Teemu's AI tool refactoring and porting to pyQT: [WGSExtractv6](https://github.com/teepean/WGSExtractv6)  (stub code in many places; a forked and restart project; not extension of effort here)
 * Marco's original refactoring (called [WGSE-NG](https://github.com/WGSE-NG/)) but now a rewrite ([double-helix](https://doublehelix.app)). 
   * Lots of work for 6 months but never completed. 
